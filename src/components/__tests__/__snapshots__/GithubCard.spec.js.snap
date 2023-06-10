@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`methods > fetUser 1`] = `"CourageChidi Courage Francis. A Senior Software Developer at codesGate. With over 8 years experience in software development as a full stack developer -- Lagos, Nigeria"`;
