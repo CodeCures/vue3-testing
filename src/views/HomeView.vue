@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue';
+import { computed, getCurrentInstance, h, ref } from 'vue';
 import RandomNumber from '../components/RandomNumber.vue';
 import Temperature from '../components/Temperature.vue';
+import FruitBasket from '../components/FruitBasket.vue';
 
 const temp = ref('');
+
 </script>
 
 <template>
@@ -13,6 +15,9 @@ const temp = ref('');
 
     <input type="text" v-model="temp"> <br><br>
 
-    <Temperature :temp="temp"/>
+    <Temperature :temp="temp"/> <br>
+
+    <FruitBasket />
+
   </main>
 </template>
